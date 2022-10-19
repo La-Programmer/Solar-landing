@@ -1,0 +1,39 @@
+.homecf {
+    padding: 2rem;
+}
+.homecf > form {
+    background: #034694;
+    width: 100%;
+    height: 80%;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.homecf > form > h2 {
+    color: white;
+}
+
+.homecf > form > input {
+    background-color: #041E42;
+    border: hidden;
+    border-radius: 0.2rem;
+    color: white;
+    padding: 0.8rem;
+    margin-top: 1rem;
+}
+
+.homecf > form > button {
+    width: 100%;
+    color: black;
+    background-color: yellow;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.homecf > form > button:hover {
+    background-color: grey;
+    color: white;
+}

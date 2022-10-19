@@ -1,0 +1,56 @@
+.footer {
+    background-color: #041E42;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    postion: absolute;
+    bottom: 0;
+}
+
+.section {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.section > h1 {
+    font-size: 20px;
+}
+
+.section > nav {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem; 
+}
+
+.sm__links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    width: 100%;
+    font-size: 30px;
+}
+
+.bottom__section {
+    margin-top: 14%;
+    display: flex;
+    margin-left: 10%;
+    padding: 1rem;
+}
+
+.to__the__top {
+    position: absolute;
+    right: 0;
+    font-size: 35px;
+    padding: 1.5rem;
+}
+
+.footer > a:hover {
+    border-bottom: none;
+}
+
+

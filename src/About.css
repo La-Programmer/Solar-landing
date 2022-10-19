@@ -1,0 +1,35 @@
+.about {
+    background: url('https://images.unsplash.com/photo-1594818379496-da1e345b0ded?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmVuZXdhYmxlJTIwZW5lcmd5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60');    
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about__header {
+    background-color: rgba(56, 89, 172, 0.9);
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 40px;
+    padding-top: 100px;
+    font-family: Georgia, serif;
+}
+
+.about__info {
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2rem 2rem;
+}
+
+strong {
+    display: block;
+    color: rgb(29, 29, 119);
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .about__info {
+        font-size: 12px;
+    }
+}

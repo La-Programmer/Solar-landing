@@ -1,0 +1,46 @@
+.homecard {
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.card__bottom {
+    margin-top: 2rem;
+}
+
+.homecard > div > h1 {
+    color: inherit;
+}
+
+.homecard > div > p {
+    color: grey;
+}
+
+.icon {
+    font-size: 60px;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    background: rgb(225, 225, 225);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.icon:hover {
+    background-color: #034694;
+    color: rgb(220, 220, 220);
+}
+
+@media only screen and (max-width: 768px) {
+    .homecard {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .card__bottom {
+        margin-bottom: 1rem;
+    }
+}
+
+
+

@@ -1,0 +1,252 @@
+.home {
+    background: rgb(255, 255, 255);
+}
+
+.home__top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 9px;
+}
+
+
+.home__logo {
+    height: 70px;
+    margin-left: 15%;
+}
+
+.left {
+    display: flex;
+    margin-left: 40%;
+    align-items: center;
+}
+
+.sm__icon {
+    color: #034694;
+    font-size: 30px;
+}
+
+.home__top__contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    color: #034694;
+}
+
+.home__header {
+    background: url('./images/Bulb.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home__header__content {
+    padding: 10rem 5rem;
+    background: rgba(50, 50, 50, 0.5);
+    color: white;
+}
+
+
+.contact__button{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    border: hidden;
+    color: white;
+    background: #034694;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.home__row__button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0.2rem;
+    border: hidden;
+    color: white;
+    background: #034694;
+    transition: background-color 0.2s, color 0.2s;
+
+}
+
+.contact__button:hover {
+    background-color: rgb(40, 40, 250);
+    color: black;
+}
+
+.home__row {
+    margin-top: 3rem;
+    padding: 1rem 4rem;
+    color: #034694;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.home__row > button {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 4rem;
+    border-radius: 0.2rem;
+    border: hidden;
+    color: white;
+    background: #034694;
+    margin-left: 43.5%;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.home__row > button:hover {
+    background-color: rgb(40, 40, 250);
+    color: black;
+}
+
+.second {
+    background: rgb(225, 225, 225);
+}
+
+.second > h1, .second > p {
+    text-align: center;
+}
+
+img:hover {
+    box-shadow: none;
+}
+
+.home__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__bottom > span {
+    padding: 1rem;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bottom__banner {
+    height: 20rem;
+    background: url('https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZWxlY3RyaWNhbCUyMGVuZ2luZWVyaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+
+.bottom__banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 15rem;
+    background: rgba(15, 15, 15, 0.5);
+    height: 100%;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+.contact__button__bottom {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+    border: hidden;
+    color: black;
+    background: #ffdf00;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.contact__button__bottom:hover {
+    background-color: #034694;
+    color: white;
+}
+
+.home__row__button {
+    margin-left: 42.5%;
+}
+
+.home > a:hover, .home__row > a:hover, .bottom__banner__content > a:hover {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .left {
+        margin-left: 10%;
+    }
+
+    .home__header__content {
+        padding: 12rem 2rem;
+    }
+
+    .home__header__content > h1 {
+        font-size: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .first > h1 {
+        font-size: 20px;
+    }
+
+    .second > h1{
+        margin-top: 2rem;
+    }
+
+    .home__row {
+        padding: 1rem 1rem;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .home__row__button {
+        margin-left: 4%;
+    }
+
+    .bottom__banner {
+        margin: 5rem;
+    }
+
+    .bottom__banner__content {
+        width: 100%;
+        padding: 4rem 5rem;
+    }
+
+    .home__bottom > span {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home__row__button {
+        margin-bottom: 7rem;
+    }
+}

@@ -1,0 +1,41 @@
+
+.nav__bar {
+    margin-left: 1rem;
+    padding-top: 0.4rem;
+    display: inline-grid;
+    grid-template-columns: 8rem 8rem 8rem 8rem;
+    text-align: center;
+    column-gap: 30px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    border: hidden;
+    transition: background-color 0.2s, color 0.2s, border-bottom 0.2s;
+}
+
+a.active {
+    color: rgb(0, 0, 200);
+    border-bottom: 0.2rem solid rgb(0, 0, 200);
+}
+
+a:hover {
+    color: #034694;
+    border-bottom: 0.2rem solid #034694;
+}
+
+
+.right {
+    margin-left: 8%;
+    color: black;
+    font-size: 12px;
+}
+
+.right > h3 {
+    text-align: center;
+}
+

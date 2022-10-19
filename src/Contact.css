@@ -1,0 +1,74 @@
+.contact {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    /* background: url(https://media.istockphoto.com/photos/solar-panel-installer-installing-solar-panels-on-roof-of-modern-house-picture-id1315903471?b=1&k=20&m=1315903471&s=170667a&w=0&h=33JBpFUFR4sC_CANe67JJnuV1XJZ9DGBxl4bTtqQJqE=); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.contact > a:hover{
+    border-bottom: none;
+}
+
+.contact > h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.contact > form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 8px rgba(150, 150, 150, 0.5);
+    border-radius: 0.4rem;
+    z-index: 1;
+}
+
+.contact > form > input {
+    margin-top: 20px;
+    padding: 8px;
+    width: 80%;
+    border-radius: 0.4rem;
+    border: 1px solid grey;
+}
+
+.submitButton {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #ffdf00;
+    color: black;
+}
+
+.submitButton:hover {
+    background-color: #222280;
+    color: white;
+}
+
+.feather {
+    width: 24px;
+    height: 24px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
